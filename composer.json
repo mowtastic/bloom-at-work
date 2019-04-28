@@ -1,0 +1,24 @@
+{
+    "name": "bloomatwork/test-mickael",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Pierre Lemée",
+            "email": "pierre@bloom-at-work.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BloomAtWork\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BloomAtWork\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "7.1",
+        "symfony/console": "^4.2"
+    }
+}

@@ -1,8 +1,2 @@
+vendor/
 
-/phpunit.xml
-.phpunit.result.cache
-
-/.env.local
-/.env.local.php
-/.env.*.local
-/vendor/
